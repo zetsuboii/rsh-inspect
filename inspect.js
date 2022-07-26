@@ -36,8 +36,8 @@ const BALANCE_SUFFICIENT_MESSAGE = `* Failed assumption is "balance sufficient f
   + `  This means, in this scenario, contract tried the spend funds that it didn't have\n`
 
 const TOKEN_DESTROYED_MESSAGE = `* Failed assumption is "token destroyed at application exit"\n`
-  + `  This means, in this scenario, token isn't destroyed before application finishes.`
-  + `  In Reach contracts, if you create a token you have to destroy it before app closes`
+  + `  This means, in this scenario, token isn't destroyed before application finishes.\n`
+  + `  In Reach contracts, if you create a token you have to destroy it before app closes\n`
 
 const GENERIC_MESSAGE_EXPLANATION = (m) => `* Failed assumption is "${m}"\n`
 
